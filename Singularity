@@ -18,6 +18,6 @@ echo "This section happens once after bootstrap to build the image."
 mkdir -p /code  
 apt-get update
 apt-get install --yes vim  
-echo "RoooAAAAR" >> /code/rawr.sh
+echo "echo RoooAAAAR" >> /code/rawr.sh
 chmod u+x /code/rawr.sh  
 
